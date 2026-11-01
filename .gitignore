@@ -1,0 +1,31 @@
+# Node.js
+node_modules/
+.next/
+out/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Model artifacts and large datasets
+*.joblib
+*.pkl
+*.pickle
+ml/datasets/*
+!ml/datasets/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating system and editor
+.DS_Store
+Thumbs.db
+.vscode/
