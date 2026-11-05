@@ -1,0 +1,45 @@
+HEART DISEASE DATA PREPROCESSING REPORT
+==================================================
+
+Original records: 303
+Original features: 13
+
+Missing values before preprocessing:
+age         0
+sex         0
+cp          0
+trestbps    0
+chol        0
+fbs         0
+restecg     0
+thalach     0
+exang       0
+oldpeak     0
+slope       0
+ca          4
+thal        2
+
+Training records:
+242
+
+Testing records:
+61
+
+Processed training shape:
+(242, 28)
+
+Processed testing shape:
+(61, 28)
+
+Binary target distribution:
+num
+0    164
+1    139
+
+Preprocessing methods:
+Numeric missing values: Median imputation
+Numeric scaling: StandardScaler
+Categorical missing values: Most frequent imputation
+Categorical encoding: OneHotEncoder
+Train-test split: 80:20
+Random state: 42
